@@ -4,7 +4,7 @@
 
 Web Sandbox is a simple web application that enables users to experiment with web technologies such as input/output, cookie storage, and deletion. It provides a practical demonstration of these features using HTML, CSS, and JavaScript.
 
-![Web Sandbox Screenshot](screenshot-web-Sandbox.png)
+![Web Sandbox Screenshot](web-sandbox/screenshot-web-Sandbox.png)
 
 ## Features
 
