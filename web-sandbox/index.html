@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Sandbox</title>
+</head>
+<body>
+    <header>
+        <h1>Web Sandbox</h1>
+    </header>
+    <main>
+        <section class="sandbox">
+            <h2>Input and Output</h2>
+            <div id="io-container">
+                <textarea id="input" placeholder="Enter your text here"></textarea>
+                <button id="submit">Submit</button>
+                <div id="output"></div>
+            </div>
+        </section>
+        <section class="sandbox">
+            <h2>Cookie Storage</h2>
+            <input type="text" id="cookie-key" placeholder="Key">
+            <input type="text" id="cookie-value" placeholder="Value">
+            <button id="save-cookie">Save</button>
+            <button id="delete-cookie">Delete</button>
+            <button id="delete-all-cookies">Delete All</button>
+            <table id="cookie-table">
+                <thead>
+                    <tr>
+                        <th>Cookie Name</th>
+                        <th>Cookie Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Cookies here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
